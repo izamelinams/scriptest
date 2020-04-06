@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import subprocess as cmd
 
 cp = cmd.run("git add .", check=True, shell=True)
